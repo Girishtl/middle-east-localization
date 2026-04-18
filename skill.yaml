@@ -1,0 +1,36 @@
+skill:
+  name: middle-east-localization
+  version: 1.0
+  domain: localization
+
+
+markets:
+ SA:
+  - name: Saudi Arabia
+  -description: Localization services for Saudi Arabia, including translation, cultural adaptation, and market research to ensure products and services resonate with the local audience.
+
+    tone: 
+       allowed: 
+         - formal
+         - professional
+         - neutral
+    terminology:
+       forbidden:
+         - wine
+         - alcohol
+        mapping:
+           wine glasses: "juice glasses"
+           wine goblet : "goblet"
+    behavior:
+       allowed:
+         - respectful
+         - culturally sensitive
+         -enforce brand safety guidelines
+       forbidden:
+         - offensive language
+         - stereotypes
+    compliance:
+       required:
+         - adhere to local regulations and cultural norms
+         - ensure all content is appropriate for the Saudi Arabian market
+
