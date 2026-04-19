@@ -1,43 +1,62 @@
-# Middle East Localization
-
-This repository contains resources and tools for localization efforts in the Middle East.
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Setup Instructions](#setup-instructions)
-    - [Step 1: Install Required Tools](#step-1-install-required-tools)
-    - [Step 2: Copilot CLI Setup](#step-2-copilot-cli-setup)
-    - [Step 3: Additional Configuration](#step-3-additional-configuration)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-This project aims to provide effective localization solutions tailored to the cultural and linguistic needs of the Middle East region. 
-
-## Prerequisites
-Ensure you have the following tools installed:
-- Node.js
-- npm
-- AWS CLI  
+# README.md
 
 ## Setup Instructions
 
-### Step 1: Install Required Tools
-To get started, install the required tools listed in the prerequisites section. Make sure to follow the installation instructions provided on their official websites.
-
-### Step 2: Copilot CLI Setup
-Run the following command to set up the Copilot CLI:
+### Step 1: Install Required Dependencies
+Run the following command to install the necessary dependencies:
 ```bash
-copilot add --skill
+npm install
 ```
-This command will guide you through adding a new skill to your application.
 
-### Step 3: Additional Configuration
-Follow any additional configuration steps required for your specific project needs. Please refer to the project's documentation for further details.
+### Step 2: Configure the Environment
+Set up your environment variables by creating a `.env` file in the root directory:
+```bash
+echo "YOUR_ENV_VARIABLE=value" >> .env
+```
 
-## Contributing
-We welcome contributions! Please read our contributing guidelines for more details.
+### Step 3: Initialize the Project
+Run the initialization command:
+```bash
+npm start
+```
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+### Step 4: Verify Installation
+Ensure everything is working by running tests:
+```bash
+npm test
+```
+
+## Using Copilot with Skills
+To add a skill to Copilot, use the following command:
+```bash
+copilot add --skill <skill-name>
+```
+
+## Sample Output Example
+When you run the project, you can expect an output similar to:
+```
+Successfully initialized! Skill is active.
+```
+
+## Usage Guide
+To use the application, execute the following command in your terminal:
+```bash
+npm run use
+```
+This command launches the application, allowing you to interact with it accordingly.
+
+## Supported Markets
+This application supports the following markets:
+- Market A
+- Market B
+- Market C
+
+## Contributing Guidelines
+We welcome contributions! Please follow these steps:
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/your-feature`
+3. Make your changes and commit them: `git commit -m 'Add a feature'`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Create a Pull Request
+
+Thank you for considering contributing to this project!
